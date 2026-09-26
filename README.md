@@ -1,6 +1,6 @@
 # AI Dev Team
 
-App that turns a request into a dependency-ordered plan, implements
+CLI that turns a request into a dependency-ordered plan, implements
 tasks in isolated Git worktrees, has a Tester author and run functional tests,
 and sends passing changes to a dedicated Code Review agent. A failed test or
 blocking review returns to the Coder; every repair must pass the Tester again.
